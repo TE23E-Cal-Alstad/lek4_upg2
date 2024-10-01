@@ -1,6 +1,6 @@
 body {
     background-image: url("./img/winter-snow.jpg");
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 
@@ -44,10 +44,40 @@ h1 {
     width: 80%;
 }
 
-.fyverkeri{
+.fyverkeri {
     border: 4px solid #000000;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.calender {
+    border: 4px solid #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ce4b4b;
+
+}
+
+.vecka {
+    background-color: rgb(189, 189, 189);
+    font-size: 200%;
+   
     
 }
 
+.dagar {
+    background-color: bisque;
+    font-size: 300%;
+}
+
+#roddag {
+    color: #e61919;
+    
+}
+
+th{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
